@@ -1,0 +1,34 @@
+
+  <ion-content class="bg" padding>
+        <ion-avatar class="marginTop10pt">
+          <img class="logo width90pt" src='../../assets/images/logo.png'>
+        </ion-avatar>
+        <ion-list>
+    
+            <ion-item class="marginTop10pt width90pt marginAuto">
+              <ion-input placeholder="Username" type="text" value=""></ion-input>
+            </ion-item>
+    
+            <ion-item class="marginTop10px width90pt marginAuto">
+                <ion-input placeholder="Email Address" type="text" value=""></ion-input>
+              </ion-item>
+
+            <ion-item class="marginTop10px width90pt marginAuto">
+                <ion-input placeholder="Password" type="text" value=""></ion-input>
+                </ion-item>
+            <ion-item class="marginTop10px width90pt marginAuto bgTransparent textAlignCenter">
+                <span class="whiteColor fs14">By sigining up, you agree to our <a (click)="opentc($event)">T & C</a></span>
+            </ion-item>
+            <ion-item class="marginNeg width90pt marginAuto borderRadius5px">
+              <button class="loginbutton fs18" ion-button outline item-end icon-start>
+                Register
+              </button>
+            </ion-item>
+            <ion-item class="marginTop10px width90pt marginAuto borderRadius5px">
+                    <button class="registerButton fs18" ion-button outline item-end icon-start>
+                     Already Have Account
+                    </button>
+                  </ion-item>
+          </ion-list>
+      </ion-content>
+      

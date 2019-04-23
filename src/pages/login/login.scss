@@ -1,0 +1,59 @@
+page-login {
+    .item-input {
+        border: 0.5px solid #e84c5c !important;
+        border-radius: 5px !important;
+        color: white !important;
+        background: transparent !important;
+    }
+
+    .item-input.input-has-focus {
+        border: 1px solid white !important;
+        border-radius: 5px !important;
+        -webkit-box-shadow: inset 0 0 0 0 #488aff !important;
+        box-shadow: inset 0 0px 0 0 #488aff !important;
+        color: white !important;
+        background: transparent !important;
+      }
+      .item-input.input-has-focus .item-inner {
+        border: 0.5px solid white !important;
+        border-radius: 5px !important;
+        -webkit-box-shadow: inset 0 0 0 0 #488aff !important;
+        box-shadow: inset 0 0px 0 0 #488aff !important;
+        color: white !important;
+        background: transparent !important;
+      }
+      .item-md {
+          padding-left: 0px !important;
+      }
+      .item-md.item-block .item-inner {
+          border-bottom: none !important;
+      }
+
+      .scroll-content {
+          overflow-y: unset !important;
+          padding-bottom: 0px !important;
+      }
+
+      .item-md [item-left], .item-md [item-right], .item-md [item-start], .item-md [item-end] {
+        margin: 0px !important;
+      }
+      .item-md.item-block .item-inner {
+          padding-right: 0px !important;
+      }
+
+      .forgotButton {
+          border: none !important;
+          text-transform: none !important;
+          color: white !important;
+          padding-left: 20px !important;
+          font-size: 14px !important;
+      }
+      .registerButton {
+        text-transform: none !important;
+        color: white !important;
+        background: red !important;
+        border-color: red !important;
+        border-radius: 5px !important;
+        font-size: 16px !important;
+    }
+}
